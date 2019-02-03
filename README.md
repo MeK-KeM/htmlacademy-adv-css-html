@@ -3,7 +3,7 @@ htmlacademy advanced css&amp;html course sources
 
 
 
-code structure:
+**code structure:**
 |- fonts/
 |- img/
 |- sass/
