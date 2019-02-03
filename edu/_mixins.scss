@@ -1,0 +1,17 @@
+@mixin card() {
+  display: inline-block;
+  vertical-align: top;
+}
+
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin size( $_height, $_width ) {
+  height: $_height;
+  width: $_width;
+}

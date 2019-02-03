@@ -1,0 +1,15 @@
+@import 'mixins';
+
+.box-1 {
+  @include card;
+  width: 200px;
+}
+
+.box-2 {
+  @include card;
+  width: 400px;
+}
+
+
+
+
